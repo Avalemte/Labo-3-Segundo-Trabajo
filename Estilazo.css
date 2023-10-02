@@ -1,0 +1,251 @@
+.Flex
+{
+    display: flex;
+}
+.SpaceBetween
+{
+    justify-content: space-between;
+}
+.sidesMargin
+{
+    margin: 0px 50px;
+}
+
+.Red
+{
+    color: red;
+    font-weight: bolder;
+    
+}
+.boton-Detalles
+{
+    background: none;
+    border: none;
+}
+.Logo
+{
+    margin: 10px;
+    width: 30px;
+}
+
+.justifyCenter
+{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.flex-start
+{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.title
+{
+    margin: 20px 20px;
+    font-size: 30px;
+    align-items: center;
+}
+.NoMargin
+{
+    margin: 0px 0px 0px 0px;
+}
+
+header
+{
+    background-color: white;
+    margin: 0px;
+}
+body
+{
+    margin: 0px;
+}
+.blue
+{
+    color: blue;
+    margin: 10px 0px 20px 0px;
+}
+.HeadButton
+{
+    border: solid  2px gray;
+    border-radius: 10px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color:  grey;
+    background-color: white;
+    padding: 10px 0px;
+    width: 200px;
+    margin: 0px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border 0.3s, color 0.3s;
+}
+.HeadButton:hover
+{
+    border:  solid 2px black;
+    color:  black;    
+}
+.Medium
+{
+    background-color: rgba(240, 240, 240, 0.507);
+    width: 100%;
+}
+.grey
+{
+    background-color: rgba(240, 240, 240, 0.507);
+}
+.width60{
+    width: 75%;
+}
+.TopMargin
+{
+    margin: 25px 0px;
+}
+.smalltext
+{
+    font-size: 14px;
+}
+.samllestext
+{
+    font-size: 10px;
+
+}
+.Cuadro
+{
+    background-color: white;
+    width: 340px;
+    border: solid 1px gray;
+    margin: 20px 20px 20px 0px;
+}
+.columm
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuadroTetx
+{
+    margin: 5px 0px 5px 15px;
+    width: 90%;
+}
+.Space-Between
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blueButton
+{
+    font-size: 14px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+   
+}
+.blueButton:hover
+{
+    background-color:  cornflowerblue;    
+}
+.flexend
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.Mejoropción
+{
+    margin: 20px 0px;
+    background-color: rgb(228, 228, 4);
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-weight: bolder;
+}
+.blankspace
+{
+    height: 30px;
+    margin: 10px 0px;
+}
+
+.CuadroText
+{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.icon
+{
+    width: 20px;
+    height: 20px;
+}
+.alingcenter
+{
+    align-items:center;
+}
+.bottom
+{
+width: 100%;
+}
+main{
+    background-color: white;
+}
+.linea
+{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+.Relleno
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.widthrelleno
+{
+    width: 500px;
+}
+@media(width < 1200px)
+{
+    .HeadButton
+    {
+        margin: 0px;
+    }
+    .CuadroText
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 80%;
+    }
+    .Cuadro
+    {
+        width: 80%;
+    }
+    .widthrelleno
+    {
+        width: 100%;
+    }
+    .Relleno
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .width60
+    {
+        width: 90%;
+    }
+}
